@@ -3,20 +3,18 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="{% static 'bone.css' %}">
-    <link rel="stylesheet" href="{% static 'services.css' %}">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramsay Media</title>
 </head>
 <body>
-    <section>
     <nav>
         <label class="logo">Ramsay Media</label>
         <ul>
             <li><a href="{% url 'home'%}">Home</a></li>
-            <li><a class="active" href="{% url 'services'%}">Services</a></li>
-            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'services'%}">Services</a></li>
+            <li><a class="active" href="{% url 'about' %}">About</a></li>
             <li><a href="{% url 'contact' %}">Contact</a></li>
             <li><a href="{% url 'feedback' %}">Feedback</a></li>
         </ul>
@@ -24,15 +22,5 @@
             <i class="fas fa-bars"></i>
         </label>
     </nav>
-</section>
-<section class="h1">
-<div class="services">
-    <h1>Services</h1>
-        <p>blabalbla</p>
-
-
-
-</div>
-</section>
 </body>
 </html>
